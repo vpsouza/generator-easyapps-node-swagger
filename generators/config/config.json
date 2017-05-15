@@ -1,0 +1,29 @@
+{
+	"name": "easyauth",
+	"urlResponse": "http://localhost",
+	"port": 8080,
+	"development": {
+		"username": "easyauth",
+		"password": "34sy4uth",
+		"database": "easyauth_dev",
+		"host": "easyauth-db",
+		"dialect": "postgres",
+		"port": "5432"
+	},
+	"test": {
+		"username": "easyauth",
+		"password": "34sy4uth",
+		"database": "easyauth_test",
+		"host": "easyauth-db",
+		"dialect": "postgres",
+		"port": "5432"
+	},
+	"production": {
+		"username": "easyauth",
+		"password": "34sy4uth",
+		"database": "easyauth",
+		"host": "easyauth-db",
+		"dialect": "postgres",
+		"port": "5432"
+	}
+}

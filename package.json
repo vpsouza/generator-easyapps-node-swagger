@@ -1,0 +1,23 @@
+{
+  "name": "generator-easyapps-node-swagger",
+  "version": "0.0.1",
+  "description": "EasyApps generator for NodeJs microservices specified with Swagger 2.0",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpsouza/generator-easyapps-node-swagger.git"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "js-yaml": "^3.8.4",
+    "swagger-parser": "^3.4.1",
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^1.1.1",
+    "yosay": "^2.0.0"
+  }
+}
